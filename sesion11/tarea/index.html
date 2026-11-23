@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validar contraseña</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Crear nueva contraseña</h2>
+
+    <label>Contraseña nueva:</label>
+    <input type="password" id="password" placeholder="Escribe tu contraseña">
+
+    <label>Confirmar contraseña:</label>
+    <input type="password" id="confirmar" placeholder="Repite tu contraseña">
+
+    <h3>Requisitos de seguridad:</h3>
+
+    <ul>
+        <li id="caracteres">❌ Al menos 8 caracteres</li>
+        <li id="mayuscula">❌ Una letra mayúscula</li>
+        <li id="minuscula">❌ Una letra minúscula</li>
+        <li id="numero">❌ Un número</li>
+        <li id="simbolo">❌ Un símbolo</li>
+    </ul>
+
+    <h3>Seguridad: <span id="nivel">Débil</span></h3>
+
+    <p id="mensaje"></p>
+
+    <button id="guardar" disabled>Guardar</button>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
