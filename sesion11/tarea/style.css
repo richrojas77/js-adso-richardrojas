@@ -1,0 +1,42 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    padding: 30px;
+    max-width: 400px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+li {
+    margin: 10px 0;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #087f5b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+#nivel {
+    color: #087f5b;
+    font-weight: bold;
+}
